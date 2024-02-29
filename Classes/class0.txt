@@ -1,0 +1,2 @@
+Eu aprendi que GIT é tipo um gericiador de arquivos em grupo.
+E que GITHUB é uma rede social de programadores.
