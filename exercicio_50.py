@@ -7,3 +7,4 @@ def inverter_listas(lista):
 
 resultado = inverter_listas(listas_de_entrada)
 print(resultado)
+

@@ -1,13 +1,19 @@
-def numero_secreto(numero_secreto):
-    numeros = "1,2,3,4,5,6,7,8,,9,10"
+contador = 0
+palavra = "kaiak"
+teste =  "kaiak"
     
+indice_primeira_palavra = len(palavra) -1
+indice_segunda_palavra = 0
 
-    if numeros :
-        return "esta palavra nao tem palíndromo"
-    
-    
 while True:
+    letra_palavra = palavra(indice_primeira_palavra)
+    letra_teste = teste(indice_segunda_palavra)
 
-    numeros = input("insere uma palavra")
-    res = numero_secreto(numeros)
-    print(res)
+    if letra_palavra != letra_teste:
+        print('nao e um palindromo')
+        break
+
+    indice_primeira_palavra = indice_primeira_palavra - 1
+    indice_segunda_palavra = indice_segunda_palavra + 1
+
+print("parabens, a palavra e um palindromo")

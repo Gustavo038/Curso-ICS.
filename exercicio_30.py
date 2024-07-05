@@ -1,11 +1,9 @@
-a = 86
-b = 56
+num1 = input("digite o primeiro numero ")
+num2 = input("digite o segundo numero ")
 
-if a==b:
-    print("A é igual a B")
-
-elif a < b:
-    print("A é menor que")
-
-elif a > b:
-    print("B é maior")
+if int(num1) > int(num2):
+    print("o primeiro numero e o maior")
+elif int(num2) > int(num1):
+    print("O segundo numero e o maior: " + num2)
+else:
+    print("eles sao iguais")
