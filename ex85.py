@@ -22,4 +22,4 @@ for nome, idade in lista_pessoas:
 
 print("Pessoas agrupadas por idade:")
 for idade, nomes in pessoas_por_idade.items():
-    print(f"Idade {idade}: {nomes}")
+    print("Idade {idade}: {nomes}")
